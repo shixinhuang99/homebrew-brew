@@ -1,6 +1,6 @@
 cask "czkawka-tauri-ffmpeg" do
-  version "1.0.2"
-  sha256 "6668cd60899104e04a1f61272b14018fa9258976f864abd24c7ed32b5960c476"
+  version "1.0.3"
+  sha256 "02a6ae60dca6fe027fbbded7669665195813cac631c49a984f1f2cd136976151"
 
   url "https://github.com/shixinhuang99/czkawka-tauri/releases/download/#{version}/CzkawkaTauri_#{version}_universal_ffmpeg.dmg"
   name "CzkawkaTauri (with FFmpeg)"
