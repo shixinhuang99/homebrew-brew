@@ -1,10 +1,10 @@
 cask "czkawka-tauri" do
-  version "1.0.3"
-  sha256 "dbd9d3af8a662767ef74696ccabb1cc760adc1d5d0e8771f4c686f64090ea48f"
+  version "1.0.4"
+  sha256 "1d19c4980c2843fde4ff8d33e3ef8abdfbe0812d876ab1da12ca4cafe0e21edb"
 
   url "https://github.com/shixinhuang99/czkawka-tauri/releases/download/#{version}/CzkawkaTauri_#{version}_universal.dmg"
   name "CzkawkaTauri"
-  desc "A Tauri frontend of Czkawka on macOS"
+  desc "A Tauri-based frontend for Czkawka on macOS"
   homepage "https://github.com/shixinhuang99/czkawka-tauri"
 
   depends_on macos: ">= :monterey"
