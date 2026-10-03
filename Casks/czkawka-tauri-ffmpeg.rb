@@ -7,7 +7,7 @@ cask "czkawka-tauri-ffmpeg" do
   desc "A Tauri-based frontend for Czkawka on macOS and include bundled FFmpeg binaries"
   homepage "https://github.com/shixinhuang99/czkawka-tauri"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "CzkawkaTauri.app"
 end
